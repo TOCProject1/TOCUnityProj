@@ -496,6 +496,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49a0156ccc4fda74cb2ad51f3fa05050, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turnSpeed: 25
   speed: 10
 --- !u!54 &975822484
 Rigidbody:
@@ -511,7 +512,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 80
   m_CollisionDetection: 0
 --- !u!1001 &1233079895
 PrefabInstance:
